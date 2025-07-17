@@ -2828,3 +2828,48 @@ section,
     color: #76528bff;
     font-size: 14px;
 }
+  .impressum-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  .impressum-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .impressum-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .impressum-col {
+    flex: 1;
+    min-width: 250px;
+  }
+  .impressum-label {
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .impressum-text {
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  .impressum-link {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  .impressum-link:hover {
+    text-decoration: underline;
+  }
+  .impressum-footer {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+  }
