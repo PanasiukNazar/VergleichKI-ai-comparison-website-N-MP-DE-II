@@ -65,166 +65,67 @@
                 <nav id="navmenu" class="navmenu">
                     <ul>
                         <li>
-                            <a href="index.html">Startseite</a>
+                            <a href="index.html" class="active">Startseite</a>
                         </li>
                         <li><a href="about.html">Über das Projekt</a></li>
                         <li><a href="services.html">Analysebereiche</a></li>
                         <li><a href="testimonials.html">Fachmeinungen</a></li>
-                        <li>
-                            <a href="contact.html" class="active">Kontakt</a>
-                        </li>
+                        <li><a href="contact.html">Kontakt</a></li>
                     </ul>
                     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
                 </nav>
             </div>
         </header>
 
-        <main class="main">
-            <!-- Page Title -->
-            <div class="page-title light-background">
-                <div class="container">
-                    <nav class="breadcrumbs">
-                        <ol>
-                            <li><a href="index.html">Startseite</a></li>
-                            <li class="current">Kontakt</li>
-                        </ol>
-                    </nav>
-                    <h1>Kontakt</h1>
-                </div>
-            </div>
-            <!-- End Page Title -->
+        <main>
+            <article class="container additional-wrapper">
+                <div
+                    class="impressum-container"
+                    role="contentinfo"
+                    aria-label="Impressum"
+                >
+                    <h2 class="impressum-title">Impressum</h2>
+                    <div class="impressum-row">
+                        <div class="impressum-col">
+                            <p class="impressum-label">Name</p>
+                            <p class="impressum-text">Dr. Markus Schreiber</p>
 
-            <!-- Contact Section -->
-            <section id="contact" class="contact section">
-                <div class="container" data-aos="fade-up" data-aos-delay="100">
-                    <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79759.08617383339!2d12.230196897265627!3d51.33924099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a6f9bd322fcf5f%3A0x9cbe3e1a30d771e8!2sDesign%20Offices%20Leipzig%20Post!5e0!3m2!1suk!2sua!4v1752741267170!5m2!1suk!2sua"
-                            style="border: 0; width: 100%; height: 270px"
-                            frameborder="0"
-                            allowfullscreen=""
-                            loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"
-                        ></iframe>
-                    </div>
-                    <!-- End Google Maps -->
-
-                    <div class="row gy-4">
-                        <div class="col-lg-4">
-                            <div
-                                class="info-item d-flex"
-                                data-aos="fade-up"
-                                data-aos-delay="300"
-                            >
-                                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                                <div>
-                                    <h3>Adresse</h3>
-                                    <p>
-                                        Augustuspl. 1-4, 04109 Leipzig,
-                                        Deutschland
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- End Info Item -->
-
-                            <div
-                                class="info-item d-flex"
-                                data-aos="fade-up"
-                                data-aos-delay="400"
-                            >
-                                <i class="bi bi-telephone flex-shrink-0"></i>
-                                <div>
-                                    <h3>Telefon</h3>
-                                    <p>+4934133976500</p>
-                                </div>
-                            </div>
-                            <!-- End Info Item -->
-
-                            <div
-                                class="info-item d-flex"
-                                data-aos="fade-up"
-                                data-aos-delay="500"
-                            >
-                                <i class="bi bi-envelope flex-shrink-0"></i>
-                                <div>
-                                    <h3>E-Mail</h3>
-                                    <p>vergleich_ki@gmail.com</p>
-                                </div>
-                            </div>
-                            <!-- End Info Item -->
+                            <p class="impressum-label">Adresse</p>
+                            <p class="impressum-text">
+                                Augustuspl. 1-4,<br />
+                                04109 Leipzig, Germany
+                            </p>
                         </div>
 
-                        <div class="col-lg-8">
-                            <form
-                                action="forms/contact.php"
-                                method="post"
-                                class="php-email-form"
-                                data-aos="fade-up"
-                                data-aos-delay="200"
-                            >
-                                <div class="row gy-4">
-                                    <div class="col-md-6">
-                                        <input
-                                            type="text"
-                                            name="name"
-                                            class="form-control"
-                                            placeholder="Ihr Name"
-                                            required=""
-                                        />
-                                    </div>
+                        <div class="impressum-col">
+                            <p class="impressum-label">Kontakt</p>
+                            <p class="impressum-text">
+                                Telefon: +4934133976500<br />
+                                E-Mail:
+                                <a
+                                    href="mailto:vergleich_ki@gmail.com"
+                                    class="impressum-link"
+                                    >vergleich_ki@gmail.com</a
+                                >
+                            </p>
 
-                                    <div class="col-md-6">
-                                        <input
-                                            type="email"
-                                            class="form-control"
-                                            name="email"
-                                            id="email"
-                                            placeholder="Ihre E-Mail"
-                                            required=""
-                                        />
-                                        <div
-                                            id="result"
-                                            style="color: red; font-size: 12px"
-                                        ></div>
-                                    </div>
-
-                                    <div class="col-md-12">
-                                        <input
-                                            type="text"
-                                            class="form-control"
-                                            name="subject"
-                                            placeholder="Betreff"
-                                            required=""
-                                        />
-                                    </div>
-
-                                    <div class="col-md-12">
-                                        <textarea
-                                            class="form-control"
-                                            name="message"
-                                            rows="6"
-                                            placeholder="Nachricht (z. B. Fragen zur Vergleichsanalyse von KI-Tools)"
-                                            required=""
-                                        ></textarea>
-                                    </div>
-
-                                    <div class="col-md-12 text-center">
-                                        <button
-                                            type="submit"
-                                            id="submit"
-                                            onclick="sendForm()"
-                                        >
-                                            Nachricht senden
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
+                            <p class="impressum-label">Öffnungszeiten</p>
+                            <p class="impressum-text">
+                                Mo–Sa: 11:00 – 23:00<br />
+                                Sonntag: Geschlossen
+                            </p>
                         </div>
-                        <!-- End Contact Form -->
                     </div>
+
+                    <p class="impressum-footer">
+                        Diese Webseite dient ausschließlich der akademischen und
+                        bildungsorientierten Darstellung von Vergleichen
+                        zwischen populären KI-Werkzeugen. Alle Inhalte sind
+                        sorgfältig recherchiert und bieten eine neutrale,
+                        objektive Übersicht.
+                    </p>
                 </div>
-            </section>
-            <!-- /Contact Section -->
+            </article>
         </main>
 
         <footer id="footer" class="footer dark-background">
